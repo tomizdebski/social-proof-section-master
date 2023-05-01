@@ -1,0 +1,103 @@
+body {
+    font-family: League Spartan;
+    font-size: 15px;
+    background-color: hsl(300, 24%, 96%);
+}
+
+.container {
+    width: 375px;
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 50px;
+    background-color: white;
+}
+
+@media (min-width: 1440px) {
+    .container { 
+      width: 1440px;
+      flex-direction: row;
+    }
+    
+  }
+
+.description {
+    flex-basis: 250px;
+    color: hsl(300, 43%, 22%)
+}
+.description__p--first {
+    font-size: 2rem;
+    font-weight: 800;
+    
+}
+.nav {
+    display: flex;
+    justify-content: stretch;
+}
+
+
+
+
+.rated {
+    display:flex;
+    flex-wrap: wrap; 
+    flex-direction: column;
+    flex-basis:25%;
+    padding:30px;
+    align-items: flex-end;
+    flex-basis: 1fr;
+}
+.rat {
+    background-color:hsl(300, 24%, 96%);
+    padding: 10px;
+    margin: 10px;
+
+}
+.rated__desc--1 {
+   align-self: flex-start;
+}
+
+.rated__desc--2 {
+    align-self: center;
+ }
+
+ .rated__desc--3 {
+    align-self: flex-end;
+ }
+
+
+
+
+.tiles {
+    display:flex;
+    justify-content: space-between;
+    flex-basis: 100%;
+    
+   
+    
+}
+.desc {
+    flex-basis: 30%;
+    background-color: hsl(300, 43%, 22%);
+    color: white;
+    border-radius: 10px;
+}
+.tiles__img {
+    
+    border-radius: 100%;
+    padding: 30px
+}
+.quote {
+    padding: 30px
+}
+.name_p { 
+    
+    width: 100px;
+    padding: 0 30px;
+   
+
+}
+.verifed {
+    color: hsl(333, 80%, 67%);
+    padding: 0 30px
+}
